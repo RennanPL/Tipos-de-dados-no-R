@@ -1,3 +1,5 @@
 government_type <- c(3,1,2,2,3,2,1) 
 recode <- c(democracy=1, monarchy=2, socialist=3)
 (government_type <- factor(government_type, levels = recode, labels = names(recode)))
+
+levels(government_type)
